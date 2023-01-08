@@ -5,6 +5,7 @@
     background: #dedede;
     background-color: #429b94;
     background-size: cover;
+    /* background-image: none; 置入圖片、設定樣式 */
     /* background-image: url(/images/dog.jpg); */
     background-image: url(../images/dog.jpg);
     background-image: url(../images/Flower.jpg);
