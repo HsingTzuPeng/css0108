@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.face{
+    width: 500px;
+    height: 500px;
+    background: rgb(245, 202, 13);
+}
+
+.eye{
+    width: 150px;
+    height: 150px;
+    border-radius: 300px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+}
+
+.eyes{
+    width: 150px;
+    height: 150px;
+    border-radius: 300px;
+    background: rgb(255, 255, 255);
+}
+
+.mouth{
+    width: 200px;
+    height: 80px;
+    border-radius: 300px;
+    background: rgb(238, 139, 139);
+}
+
+.tought{
+    width: 150px;
+    height: 150px;
+    border-radius: 300px;
+    background: rgb(240, 74, 74);
+
+    /* overflow: hidden; */
+}
