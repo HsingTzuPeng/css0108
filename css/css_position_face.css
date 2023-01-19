@@ -10,21 +10,54 @@
     width: 500px;
     height: 500px;
     background: rgb(245, 202, 13);
+    line-height: 500px;
+    padding: 50px;
+    /* text-align: center; */
+    /* margin-top: auto;
+    margin-left: 50px;
+    margin-right: static;
+    position: absolute; */
+    
 }
 
 .eye{
-    width: 150px;
-    height: 150px;
-    border-radius: 300px;
+    width: 125px;
+    height: 125px;
+    border-radius: 125px;
     background: rgb(255, 255, 255);
-    position: absolute;
+    /* position: absolute; */
+}
+
+.point{
+    width: 125px;
+    height: 125px;
+    border-radius: 62.5px;
+    background: rgb(0, 0, 0);
+    /* margin-top: 30px;
+    margin-left: 50px;
+    margin-right: auto;
+    position: absolute; */
 }
 
 .eyes{
-    width: 150px;
-    height: 150px;
-    border-radius: 300px;
+    width: 125px;
+    height: 125px;
+    border-radius: 125px;
     background: rgb(255, 255, 255);
+    margin-left: 250px;
+    margin-right: 0px;
+    position: absolute; */
+}
+
+.points{
+    width: 125px;
+    height: 125px;
+    border-radius: 62.5px;
+    background: rgb(0, 0, 0);
+    /* margin-top: 30px;
+    margin-left: 50px;
+    margin-right: auto;
+    position: absolute; */
 }
 
 .mouth{
