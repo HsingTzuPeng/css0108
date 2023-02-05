@@ -4,9 +4,11 @@
         {
             "format": "expanded",
             "extensionName": ".css",
-            "savePath": "/dist/css"
+            "savePath": "/dist/css",
+            "savePathReplacementPairs": null
         }
     ],
     "liveServer.settings.root": "/dist",
     "liveServer.settings.CustomBrowser": "chrome"
 }
+
