@@ -16,6 +16,7 @@ livesass 設定--srcc/setting.json
 
 資料流
 1. new:scss->input with complier
-2. button:Watch Sass(turn watching)
+2. button:(bottom of vs code)Watch Sass(turn on watching)
+   select language model:Scss
 3. auto output:css
 
