@@ -14,3 +14,8 @@ livesass 設定--srcc/setting.json
     "liveServer.settings.CustomBrowser": "chrome"  #設定瀏覽器
 }
 
+資料流
+1. new:scss->input with complier
+2. button:Watch Sass(turn watching)
+3. auto output:css
+
