@@ -1,0 +1,16 @@
+2023/2/5
+livesass 設定--srcc/setting.json
+{
+    "editor.formatOnSave":true,
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded", 
+            "extensionName": ".css",
+            "savePath": "設定路徑",
+            "savePathReplacementPairs": null #不做更動
+        }
+    ],
+    "liveServer.settings.root": "/dist", #預設抓取跟目錄的位置
+    "liveServer.settings.CustomBrowser": "chrome"  #設定瀏覽器
+}
+
