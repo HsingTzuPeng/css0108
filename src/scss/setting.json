@@ -1,5 +1,5 @@
 {
-    "editor.formatOnSave":true,
+    "editor.formatOnSave": true,
     "liveSassCompile.settings.formats": [
         {
             "format": "expanded",
@@ -11,4 +11,3 @@
     "liveServer.settings.root": "/dist",
     "liveServer.settings.CustomBrowser": "chrome"
 }
-
