@@ -21,4 +21,8 @@ livesass 設定--srcc/setting.json
 3. auto output:css
 
 2023/2/16
-留意雖2k7gk42u/4
+.vscode > settings.json >留意設定方式(ctrl+shift+p)
+
+處理邊線重疊:物件的框限重疊時會加粗，做設定框限
+切換物件改用 class 抓取:用最簡單的方式做切割版面
+
