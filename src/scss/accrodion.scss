@@ -16,14 +16,29 @@
             font-family: monospace;
             cursor: pointer;
             user-select: none;
+            justify-content: space-between;
+            align-items: center;
+
+            >div {
+                font-size: 26px;
+            }
 
             &:hover {
                 background: rgb(255, 105, 36);
+            }
+
+            .close-icon {
+                display: none;
             }
         }
 
         .tab-content {
             padding: 10px;
+            display: none;
+        }
+
+        >input:checked+.tab-content {
+            display: block;
         }
     }
 }
