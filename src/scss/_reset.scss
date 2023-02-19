@@ -74,16 +74,18 @@ a {
     &:hover {
         background-color: #6e09a8;
     }
-}
 
-&.danger {
-    background: rgb(218, 49, 27);
-    color: #fff;
+    &.danger {
+        background: rgb(218, 49, 27);
+        color: #fff;
 
-    &:hover {
-        background-color: rgb(172, 33, 15);
+        &:hover {
+            background-color: rgb(172, 33, 15);
+        }
     }
 }
+
+
 
 .text-right {
     text-align: right;
