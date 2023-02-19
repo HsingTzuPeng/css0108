@@ -1,0 +1,137 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.slogan {
+  font-size: 24px;
+  text-align: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+.slogan::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: calc(50% - 140px);
+  width: 0;
+  height: 3px;
+  border-left: solid 100px #1072c2;
+  border-right: solid 180px #fff;
+}
+
+.form-control {
+  width: 100%;
+  height: 50px;
+  border: 0;
+  outline: 0;
+  padding: 0 15px;
+  border-radius: 8px;
+}
+
+.form-control-item {
+  margin-bottom: 15px;
+}
+
+.button {
+  padding: 8px 20px;
+  border: 0;
+  border-radius: 8px;
+  font-weight: 800;
+}
+.button.primary {
+  background: #8110c2;
+  color: #fff;
+}
+
+body {
+  background: #000;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.header .header-content {
+  background: #a32121;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+.header .menu {
+  list-style-type: none;
+  display: flex;
+}
+.header .menu li {
+  margin-left: 10px;
+  font-weight: 700;
+  text-align: center;
+}
+.header .menu li:first-child {
+  margin-left: 0;
+}
+.header .menu li:hover {
+  color: rgb(252, 252, 252);
+}
+.header .menu .en {
+  font-size: 14px;
+  font-family: monospace;
+  text-transform: uppercase;
+}
+
+.join-form {
+  min-height: 100vh;
+  color: #fff;
+  background: #000;
+  background-image: url(../images/banner.jpeg);
+  background-size: cover;
+}
+.join-form .join-form-content {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+.join-form .join-form-content .content-wrap {
+  background: rgba(14, 50, 80, 0.9);
+  display: flex;
+  width: 100%;
+}
+.join-form .join-form-content .content-wrap > div {
+  width: 50%;
+  padding: 20px;
+  position: relative;
+}
+.join-form .join-form-content .content-wrap > div:first-child::before {
+  content: "";
+  border-right: 3px dashed #fff;
+  position: absolute;
+  right: 0px;
+  top: 20px;
+  height: calc(100% - 40px);
+}
+.join-form .join-form-text {
+  font-size: 14px;
+  line-height: 30px;
+  text-align: justify;
+}/*# sourceMappingURL=layout_1.css.map */
