@@ -12,7 +12,7 @@ body {
     z-index: 9;
 
     .header-content {
-        background: #a32121;
+        background: #fff;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -44,12 +44,12 @@ body {
             }
 
             &:hover {
-                color: rgb(252, 252, 252);
+                color: rgb(47, 47, 255);
             }
         }
 
         .en {
-            font-size: 14px;
+            font-size: 12px;
             font-family: monospace;
             text-transform: uppercase;
         }
@@ -57,13 +57,12 @@ body {
 }
 
 .join-form {
-    min-height: 100vh;
     color: #fff;
     background: #000;
     background-image: url(../images/banner.jpeg);
     background-size: cover;
     position: relative;
-    z-index: 9;
+    z-index: 1;
 
     &::after {
         content: '';
@@ -148,6 +147,17 @@ body {
     .flow-item {
         display: flex;
         justify-content: center;
+        align-items: center;
+        position: relative;
+        padding: 20px 0;
+
+        &::after {
+            content: '';
+            border-left: 5px dashed #fff;
+            height: 100%;
+            position: absolute;
+            z-index: 1;
+        }
     }
 
     .flow-circle {
@@ -155,5 +165,16 @@ body {
         height: 36px;
         border-radius: 50px;
         background: red;
+        position: relative;
+        z-index: 2;
+    }
+
+    .flow-text {
+        position: absolute;
+        background: blue;
+        padding: 20px;
+        border-radius: 10px;
+        left: 50%;
+        margin-left: 72px;
     }
 }
