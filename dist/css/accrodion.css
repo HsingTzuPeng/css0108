@@ -1,3 +1,4 @@
+@charset "UTF-8";
 *,
 *::after,
 *::before {
@@ -42,19 +43,19 @@ a {
   outline: 0;
   padding: 0 15px;
   border-radius: 8px;
+  font-size: 18px;
 }
-
-.form-control-item {
-  margin-bottom: 15px;
-}
-.form-control-item:focus {
+.form-control:focus {
   background: #1c54bd;
   color: #fff;
 }
-.form-control-item:focus::-moz-placeholder {
+.form-control:focus::-moz-placeholder {
   color: rgb(204, 204, 204);
 }
-.form-control-item:focus::placeholder {
+.form-control:focus:-ms-input-placeholder {
+  color: rgb(204, 204, 204);
+}
+.form-control:focus::placeholder {
   color: rgb(204, 204, 204);
 }
 
@@ -69,7 +70,7 @@ a {
   background: #8110c2;
   color: #fff;
 }
-.button:hover {
+.button.primary:hover {
   background-color: #6e09a8;
 }
 .button.danger {
@@ -90,14 +91,11 @@ a {
 .form-control-item.form-control-mixed {
   position: relative;
 }
-.form-control-item.form-control-mixed .form-control {
-  width: calc(100% - 1px);
-}
 .form-control-item.form-control-mixed.after .form-control {
   padding-right: 80px;
 }
 .form-control-item.form-control-mixed.after .form-control-append {
-  right: 0px;
+  right: -1px;
 }
 .form-control-item.form-control-mixed.after .form-control-append .button {
   border-top-left-radius: 0;
@@ -105,10 +103,9 @@ a {
 }
 .form-control-item.form-control-mixed.before .form-control {
   padding-left: 80px;
-  margin-left: 1px;
 }
 .form-control-item.form-control-mixed.before .form-control-append {
-  left: 0px;
+  left: -1px;
 }
 .form-control-item.form-control-mixed.before .form-control-append .button {
   border-top-right-radius: 0;
@@ -130,6 +127,9 @@ a {
 .accrodion .tab {
   border: 3px solid rgb(204, 59, 14);
   border-bottom-width: 0;
+  /**
+  *   屬性選擇器解決方案
+  **/
 }
 .accrodion .tab:last-child {
   border-bottom-width: 3px;
@@ -139,12 +139,12 @@ a {
   background: rgb(54, 73, 245);
   color: #fff;
   padding: 12px;
-  font-size: 26px;
   font-weight: 700;
   font-family: monospace;
   cursor: pointer;
   -webkit-user-select: none;
      -moz-user-select: none;
+      -ms-user-select: none;
           user-select: none;
   justify-content: space-between;
   align-items: center;
@@ -162,18 +162,18 @@ a {
   padding: 10px;
   display: none;
 }
-.accrodion .tab > input:checked + label {
+.accrodion .tab .tab-switch:checked + label {
   background: rgb(255, 105, 36);
 }
-.accrodion .tab > input:checked + label .open-icon {
+.accrodion .tab .tab-switch:checked + label .open-icon {
   display: none;
 }
-.accrodion .tab > input:checked + label .close-icon {
+.accrodion .tab .tab-switch:checked + label .close-icon {
   display: block;
 }
-.accrodion .tab > input:checked ~ .tab-content {
+.accrodion .tab .tab-switch:checked ~ .tab-content {
   display: block;
 }
-.accrodion .tab > input {
+.accrodion .tab .tab-switch {
   display: none;
 }/*# sourceMappingURL=accrodion.css.map */

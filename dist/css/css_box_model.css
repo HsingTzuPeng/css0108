@@ -1,14 +1,12 @@
-.box{
+.box {
     width: 100px;
     height: 100px;
     line-height: 80px;
-    background: #dedede;
-    background-color: #429b94;
-    background-size: cover;
-    /* background-image: none; 置入圖片、設定樣式 */
-    /* background-image: url(/images/dog.jpg); */
-    background-image: url(../images/dog.jpg);
-    background-image: url(../images/Flower.jpg);
+    background-color: #429b9e;
+    background-size:cover;
+    /* background-image: url(/images/dog2.jpg); */
+    /* background-image: url(../images/dog2.jpg); */
+    background-image: url(../images/flower_16.png);
     /* background-repeat: no-repeat; */
     text-align: center;
     /* text-align: left; */
@@ -19,17 +17,17 @@
     padding: 10px;
     box-sizing: border-box;
     word-break: break-all;
-    color: rgb(228, 255, 234);
+    color:rgb(228, 255, 234);
     font-size: 50px;
     font-weight: 400;
     font-family: 'East Sea Dokdo', cursive;
 }
 
 .box2 {
-    width: 100px;
+    width:100px;
     height: 100px;
     box-sizing: border-box;
-    border: 3px solid #000;
+    border:3px solid #000;
     background: #dedede;
     color: red;
     padding: 10px;
@@ -43,25 +41,14 @@
     color: #fff;
     display: inline-block;
     text-align: center;
-    padding: 10px 20px;
+    padding:10px 20px;
     margin-top: 20px;
     border-radius: 5px;
-    /* border: 2px solid #1b42aa; */
-    border-right: 2px solid #1b42aa;
-    border-bottom: 2px solid #1b42aa;
+    /* border: 2px solid #1b41aa; */
+    border-right: 2px solid #1b41aa;
+    border-bottom: 2px solid #1b41aa;
 }
 
-.block{
-    background: #000;
-    margin: 20px auto;
-}
-
-.circle{
-    width: 300px;
-    height: 300px;
-    border-radius: 300px;
-    background: yellow;
-}
 
 .block {
     background: #000;
@@ -85,3 +72,4 @@
 .none {
     display: none;
     visibility: hidden;
+}

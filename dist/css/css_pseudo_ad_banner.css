@@ -42,19 +42,19 @@ a {
   outline: 0;
   padding: 0 15px;
   border-radius: 8px;
+  font-size: 18px;
 }
-
-.form-control-item {
-  margin-bottom: 15px;
-}
-.form-control-item:focus {
+.form-control:focus {
   background: #1c54bd;
   color: #fff;
 }
-.form-control-item:focus::-moz-placeholder {
+.form-control:focus::-moz-placeholder {
   color: rgb(204, 204, 204);
 }
-.form-control-item:focus::placeholder {
+.form-control:focus:-ms-input-placeholder {
+  color: rgb(204, 204, 204);
+}
+.form-control:focus::placeholder {
   color: rgb(204, 204, 204);
 }
 
@@ -69,7 +69,7 @@ a {
   background: #8110c2;
   color: #fff;
 }
-.button:hover {
+.button.primary:hover {
   background-color: #6e09a8;
 }
 .button.danger {
@@ -90,14 +90,11 @@ a {
 .form-control-item.form-control-mixed {
   position: relative;
 }
-.form-control-item.form-control-mixed .form-control {
-  width: calc(100% - 1px);
-}
 .form-control-item.form-control-mixed.after .form-control {
   padding-right: 80px;
 }
 .form-control-item.form-control-mixed.after .form-control-append {
-  right: 0px;
+  right: -1px;
 }
 .form-control-item.form-control-mixed.after .form-control-append .button {
   border-top-left-radius: 0;
@@ -105,10 +102,9 @@ a {
 }
 .form-control-item.form-control-mixed.before .form-control {
   padding-left: 80px;
-  margin-left: 1px;
 }
 .form-control-item.form-control-mixed.before .form-control-append {
-  left: 0px;
+  left: -1px;
 }
 .form-control-item.form-control-mixed.before .form-control-append .button {
   border-top-right-radius: 0;
@@ -146,11 +142,11 @@ a {
   font-weight: 800;
 }
 .ad-banner .content::-moz-selection {
-  background: rgb(255, 0, 25);
+  background: red;
   color: yellow;
 }
 .ad-banner .content::selection {
-  background: rgb(255, 0, 25);
+  background: red;
   color: yellow;
 }
 .ad-banner .content::first-line {
