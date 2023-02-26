@@ -1,0 +1,22 @@
+@import 'reset';
+
+.block {
+    width: 200px;
+    height: 200px;
+    background: #ff5656;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 2s;
+    // transition-delay: 1s;
+    transition-timing-function: ease;
+
+    &:hover {
+        background: #1d4fb9;
+        font-size: 30px;
+        width: 1000px;
+    }
+}
