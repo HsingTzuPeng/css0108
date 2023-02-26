@@ -142,10 +142,7 @@ a {
 .product .product-image {
   width: 100%;
   height: 200px;
-  background-image: url(../images.dogg.jpeg);
-  background: #ff5858;
-  background-position: center;
-  background-size: cover;
+  background-color: #ff5858;
   color: #fff;
   margin-bottom: 15px;
   display: flex;
@@ -153,6 +150,13 @@ a {
   justify-content: center;
   position: relative;
   overflow: hidden;
+}
+.product .product-image .product-image-wrap {
+  background-position: center;
+  background-image: url(../images/dogg.jpeg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
 }
 .product .product-image .discount-bar {
   background: #ff5858;
@@ -168,6 +172,13 @@ a {
   position: absolute;
   right: -105px;
   top: 10px;
+}
+.product .product-image:hover .product-image-wrap {
+  transform: scale(1.5);
+}
+.product .product-image:hover .discount-bar {
+  background-color: aquamarine;
+  color: #ff5858;
 }
 .product .product-title {
   font-size: 20px;
