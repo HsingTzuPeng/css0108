@@ -19,11 +19,22 @@
 
 
 @keyframes move {
-    from {
+    0% {
         transform: translate(0);
+        background-color: #000;
     }
 
-    to {
-        transform: translate(80%);
+    20% {
+        transform: translate(0, 100px) rotate(45deg);
+    }
+
+    50% {
+        transform: translate(40%, 300px) rotate(180deg);
+        background-color: red;
+    }
+
+    100% {
+        transform: translate(80%) rotate(360deg);
+        background-color: blue;
     }
 }
