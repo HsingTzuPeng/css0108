@@ -26,3 +26,12 @@ livesass 設定--srcc/setting.json
 處理邊線重疊:物件的框限重疊時會加粗，做設定框限
 切換物件改用 class 抓取:用最簡單的方式做切割版面
 
+2023/2/26
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animate</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+先確認網頁的內容是否可使用
