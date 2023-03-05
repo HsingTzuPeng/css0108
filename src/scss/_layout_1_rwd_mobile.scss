@@ -5,7 +5,7 @@
     cursor: pointer;
 
     >span {
-        display: inline-block;
+        // display: inline-block;
         width: 30px;
         height: 5px;
         background: #000;
@@ -25,5 +25,14 @@
     }
 }
 
+#mobile-menu-switch {
+    // display: none;
+
+    &:checked {
+        ~.mobile-icon {
+            background: red;
+        }
+    }
+}
 
 @media screen and (max-width: 600px) {}
