@@ -160,6 +160,7 @@
         .flow-item {
             justify-content: flex-start;
             padding-left: 12px;
+            z-index: 2;
 
             &:nth-child(even) .flow-text {
                 right: unset;
