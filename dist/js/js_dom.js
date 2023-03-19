@@ -38,3 +38,5 @@ const login = function () {
 
     acc.value = 'ffff';
 }
+
+uid.style.backgroundColor = 'red';
